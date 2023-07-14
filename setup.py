@@ -10,7 +10,7 @@ URL = "https://www.adaraie.com/"
 LICENSE = "BSD (3-clause)"
 DOWNLOAD_URL = "https://github.com/amirhdre/TorchSpectra"
 VERSION = "0.1.0"
-PACKAGE_DATA = {"antropy.data.icons": ["*.ico"]}
+# PACKAGE_DATA = {"antropy.data.icons": ["*.ico"]}
 
 try:
     from setuptools import setup
@@ -56,8 +56,8 @@ if __name__ == "__main__":
         download_url=DOWNLOAD_URL,
         install_requires=install_requires,
         include_package_data=True,
-        packages=["antropy"],
-        package_data=PACKAGE_DATA,
+        packages=["TorchSpectra"],
+        # package_data=PACKAGE_DATA,
         classifiers=[
             "Intended Audience :: Science/Research",
             "Programming Language :: Python",
